@@ -1,4 +1,9 @@
-public static int sum(int a, int b) 
+public static int sumOfIntegers(int n) 
 {
-    return a + b;
+    int sum = 0;
+    for (int i = 1; i <= n; i++) 
+    {
+        sum += i;
+    }
+    return sum;
 }
